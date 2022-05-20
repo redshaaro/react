@@ -22,8 +22,8 @@ changeShelf(book,event.target.value)
                 }}
               ></div>
               <div className="book-shelf-changer">
-                <select defaultValue={book.shelf ? book.shelf :book.shelf="none"} onChange={updateShelf} >
-                  <option value="move" disabled>
+                 <select defaultValue={book.shelf ? book.shelf :book.shelf="none"} onChange={updateShelf} >
+                  <option  disabled>
                     Move to...
                   </option>
                   <option value="currentlyReading">
